@@ -1,0 +1,24 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "style": "sass --watch sass/singolo3.scss singolo3.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToMikhail/singolo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ToMikhail/singolo/issues"
+  },
+  "homepage": "https://github.com/ToMikhail/singolo#readme",
+  "dependencies": {
+    "sass": "^1.26.2"
+  }
+}

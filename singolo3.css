@@ -1,0 +1,176 @@
+.layout-2-column {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+html {
+  font-size: 10px;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: "Lato";
+  font-weight: 900;
+  color: #f0cac9;
+}
+
+h3 {
+  font-size: 1.8rem;
+  font-family: "Lato";
+  font-weight: 900;
+  color: #f0cac9;
+}
+
+p {
+  font-family: "Lato";
+  font-size: 1.8rem;
+  font-weight: 100;
+  color: #f0cac9;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url(./assets/fonts/Lato/Lato-Regular.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Lato";
+  src: url(./assets/fonts/Lato/Lato-Light.ttf) format("truetype");
+  font-style: lighter;
+  font-weight: lighter;
+}
+@font-face {
+  font-family: "Lato";
+  src: url(./assets/fonts/Lato/Lato-Bold.ttf) format("truetype");
+  font-style: bold;
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Lato";
+  src: url(./assets/fonts/Lato/Lato-Black.ttf) format("truetype");
+  font-style: black;
+  font-weight: 900;
+}
+.form {
+  width: 1020px;
+  height: 654px;
+  background-color: #f06c64;
+  margin: auto;
+}
+
+.form__wrapper {
+  width: 940px;
+  background-color: #f06c64;
+  margin: auto;
+}
+.form__wrapper h2 {
+  padding-top: 6rem;
+}
+.form__wrapper p {
+  margin: 2rem 0 3rem 0;
+  line-height: 1.7;
+}
+
+.layout-2-column {
+  justify-content: space-between;
+}
+
+.form__feedback {
+  flex-basis: 619px;
+  box-sizing: border-box;
+}
+
+form {
+  width: 100%;
+}
+
+input {
+  width: 100%;
+  height: 39px;
+  margin-bottom: 16px;
+  background-color: #d6564f;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+  padding-left: 2rem;
+  font-family: "Lato";
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #f0cac9;
+}
+input::-webkit-input-placeholder {
+  color: #f48c8f;
+}
+input::-webkit-input-placeholder {
+  color: #f48c8f;
+}
+
+textarea {
+  width: 100%;
+  height: 202px;
+  resize: none;
+  margin-bottom: 16px;
+  background-color: #d6564f;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 5px;
+  padding-left: 2rem;
+  font-family: "Lato";
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #f48c8f;
+}
+
+.contact {
+  flex-basis: 300px;
+}
+.contact a,
+.contact span {
+  display: block;
+  font-family: "Lato";
+  font-size: 1.2rem;
+  font-weight: 200;
+  color: #f0cac9;
+}
+.contact .icon-location {
+  height: 11px;
+  background-image: url(./assets/img/singolo3/location.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.contact .icon-phone {
+  height: 11px;
+  background-image: url(./assets/img/singolo3/phone.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.contact .icon-mail {
+  height: 8px;
+  background-image: url(./assets/img/singolo3/mail.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.contact_text {
+  font-family: "Lato";
+  font-size: 1.2rem;
+  font-weight: 200;
+  color: #f0cac9;
+}
+
+.contact__info {
+  display: flex;
+  margin: 1rem 0 0 0;
+}
+
+.icon {
+  width: 3rem;
+}
+
+/*# sourceMappingURL=singolo3.css.map */

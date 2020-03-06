@@ -1,0 +1,5 @@
+.layout-2-column {
+    @extend %column;
+   
+    justify-content: space-between;
+}

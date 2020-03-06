@@ -1,0 +1,23 @@
+.form {
+    width: 1020px;
+    height: 654px;
+    background-color: $color-primary;
+    margin: auto;
+
+}
+
+.form__wrapper {
+    width: 940px;
+    background-color: $color-primary;
+    margin: auto;
+
+    h2 {
+        padding-top: 6rem;
+    }
+
+    p {
+        margin: 2rem 0 3rem 0;
+        line-height: 1.7;
+    }
+}
+

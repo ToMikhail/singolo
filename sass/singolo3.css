@@ -1,0 +1,80 @@
+.layout-2-column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+html {
+  font-size: 10px;
+}
+
+h2 {
+  font-size: 3rem;
+  font-family: "Lato";
+  font-weight: 900;
+  color: #f0cac9;
+}
+
+p {
+  font-family: "Lato";
+  font-size: 1.8rem;
+  font-weight: 100;
+  color: #f0cac9;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url(./assets/fonts/Lato/Lato-Regular.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url(./assets/fonts/Lato/Lato-Light.ttf) format("truetype");
+  font-style: lighter;
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url(./assets/fonts/Lato/Lato-Bold.ttf) format("truetype");
+  font-style: bold;
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "Lato";
+  src: url(./assets/fonts/Lato/Lato-Black.ttf) format("truetype");
+  font-style: black;
+  font-weight: 900;
+}
+
+.form {
+  width: 1020px;
+  background-color: #f06c64;
+  margin: auto;
+}
+
+.form__wrapper {
+  width: 940px;
+  background-color: #f06c64;
+  margin: auto;
+}
+
+.layout-2-column {
+  -webkit-box-flex: row;
+      -ms-flex: row;
+          flex: row;
+}
+
+.form__feedback {
+  -ms-flex-preferred-size: 60%;
+      flex-basis: 60%;
+}
+/*# sourceMappingURL=singolo3.css.map */
